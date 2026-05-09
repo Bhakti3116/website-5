@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sandle Shop</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #f4f4f4;
+    }
+
+    header {
+      background: #8b5e3c;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background: #6d4428;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    .hero {
+      background: url('https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?q=80&w=1200') no-repeat center center/cover;
+      height: 300px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-shadow: 2px 2px 5px black;
+      font-size: 36px;
+      font-weight: bold;
+    }
+
+    .products {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .products h2 {
+      margin-bottom: 20px;
+    }
+
+    .product-container {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      background: white;
+      width: 220px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      overflow: hidden;
+    }
+
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .card h3 {
+      margin: 10px 0;
+    }
+
+    .price {
+      color: green;
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+
+    .buy-btn {
+      display: inline-block;
+      margin-bottom: 15px;
+      padding: 10px 15px;
+      background: #8b5e3c;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    footer {
+      background: #6d4428;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Stylish Sandle Shop</h1>
+    <p>Best Fashion Sandles for Everyone</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Products</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <section class="hero">
+    Trendy & Comfortable Sandles
+  </section>
+
+  <section class="products">
+    <h2>Our Products</h2>
+
+    <div class="product-container">
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=800" alt="Sandle">
+        <h3>Classic Brown Sandle</h3>
+        <p class="price">₹799</p>
+        <a href="#" class="buy-btn">Buy Now</a>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1549298916-b41d501d3772?q=80&w=800" alt="Sandle">
+        <h3>Modern Black Sandle</h3>
+        <p class="price">₹999</p>
+        <a href="#" class="buy-btn">Buy Now</a>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?q=80&w=800" alt="Sandle">
+        <h3>Comfort Casual Sandle</h3>
+        <p class="price">₹699</p>
+        <a href="#" class="buy-btn">Buy Now</a>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Stylish Sandle Shop | All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>
